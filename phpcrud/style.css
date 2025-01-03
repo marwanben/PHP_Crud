@@ -1,0 +1,195 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&family=Playwrite+IE+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8edeb;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+}
+
+a {
+    color: #008CBA;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+
+
+/* Container for layout */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #fb6f92;
+    color: white;
+    
+}
+
+td {
+    background-color: #fff;
+    font-size: 20px;
+}
+
+img {
+    width: 100px;
+    text-align: center;
+    height: auto;
+    border-radius: 3px;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+input[type="text"], input[type="number"], select, input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: auto;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    form input, form select {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+}
+/* General Button Styles */
+a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 6px 12px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+}
+.edit {
+    background-color: #ffcc00; /* Yellow color */
+    color: white;
+    padding: 14px;
+    font-weight: bold;
+    
+}
+.edit:hover {
+    background-color: #e5b200;
+    color: white;
+}
+.delete {
+    background-color: #ff4d4d; /* Red color */
+    color: white;
+    padding: 14px;
+    font-weight: bold;
+}
+
+.delete:hover {
+    background-color: #e60000;
+    color: white;
+}
+
+/* Optional: Styling for buttons when hovered */
+a:hover {
+    opacity: 0.8;
+}
+.create {
+    background-color: #219ebc;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 140px;
+    padding: 16px;
+    font-weight: bold;
+}
+.title {
+   background-color: #d81159;
+    color: white; 
+    padding: 20px;
+    width: 90%;
+    margin:20px auto;
+    border-radius: 5px;
+    font-family: "Poppins", serif;
+}
